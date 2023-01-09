@@ -694,14 +694,19 @@ progress {
   .container-md {
     max-width: 720px;
   }
+  
 }
-
+@media (max-width: 992px) {
+.nav-btn{
+    display: none !important;
+  }
+}
 @media (min-width: 992px) {
   .container,
   .container-sm,
   .container-md,
   .container-lg {
-    max-width: 960px;
+    max-width: 960px !important;
   }
 }
 
@@ -711,7 +716,7 @@ progress {
   .container-md,
   .container-lg,
   .container-xl {
-    max-width: 1140px;
+    max-width: 1140px !important;
   }
 }
 
@@ -722,7 +727,7 @@ progress {
   .container-lg,
   .container-xl,
   .container-xxl {
-    max-width: 1600px;
+    max-width: 1600px !important;
   }
 }
 
